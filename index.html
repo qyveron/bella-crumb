@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BELLA CRUMB | Freshly Baked. Beautifully Made.</title>
+
+    <meta name="description" content="Discover handcrafted cakes, pastries and freshly baked delights at Bella Crumb.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="loader-logo">BELLA CRUMB</div>
+        <div class="loader-line"></div>
+    </div>
+
+    <header class="header">
+        <a href="#" class="logo">BELLA<span>CRUMB.</span></a>
+
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">Our Story</a>
+            <a href="#collection">Collections</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#custom-order">Custom Cake</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#collection" class="header-btn">Explore Menu ↗</a>
+
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    </header>
+
+    <main>
+
+<section class="hero hero-premium" id="home">
+
+    <div class="hero-content">
+        <p class="eyebrow">✦ ARTISAN BAKERY · EST. 2024</p>
+
+        <h1>
+            A little slice<br>
+            of <span>happiness.</span>
+        </h1>
+
+        <p class="hero-description">
+            Beautifully handcrafted cakes, delicate pastries
+            and unforgettable moments of sweetness.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#collection" class="primary-btn">
+                Explore Our Collection ↗
+            </a>
+
+            <a href="#about" class="text-btn">
+                Our Story
+            </a>
+        </div>
+
+        <div class="hero-bottom">
+            <span>MADE FRESH WITH LOVE</span>
+            <span>SCROLL TO DISCOVER ↓</span>
+        </div>
+    </div>
+
+    <div class="hero-visual">
+        <div class="hero-image-main"></div>
+
+        <div class="hero-floating-card">
+            <span>✦ OUR SIGNATURE</span>
+            <h3>Strawberry<br>Dream Cake</h3>
+            <p>Made with love, served with joy.</p>
+        </div>
+
+        <div class="hero-round-text">
+            BELLA CRUMB · FRESHLY BAKED ·
+        </div>
+    </div>
+
+</section>
+
+        <section class="intro" id="about">
+            <p class="eyebrow">A LITTLE ABOUT US</p>
+
+            <h2>Not just baked goods.<br>
+                <span>Made with a little more love.</span>
+            </h2>
+
+            <p>
+                From the first whisk to the final decoration,
+                every creation at Bella Crumb is made with passion,
+                quality ingredients and attention to detail.
+            </p>
+        </section>
+
+<!-- PREMIUM BAKERY MENU -->
+
+<section class="collection" id="collection">
+
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">BAKED WITH LOVE · SERVED FRESH</p>
+            <h2>Our Sweet <span>Collection</span></h2>
+        </div>
+
+        <p>A little treat for every mood.</p>
+    </div>
+
+    <div class="product-grid">
+
+        <!-- PRODUCT 1 -->
+        <div class="product-card">
+            <div class="product-image menu-cake-1">
+                <span class="product-tag">BESTSELLER</span>
+            </div>
+
+            <div class="product-info">
+                <span>01 / SIGNATURE CAKE</span>
+                <h3>Chocolate Truffle</h3>
+                <p>Rich chocolate layers with silky ganache.</p>
+
+                <div class="product-bottom">
+                    <strong>₹650</strong>
+                    <button onclick="orderProduct('Chocolate Truffle - ₹650')">
+                        Order ↗
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRODUCT 2 -->
+        <div class="product-card">
+            <div class="product-image menu-cake-2">
+                <span class="product-tag">FRESH PICK</span>
+            </div>
+
+            <div class="product-info">
+                <span>02 / FRUIT CAKE</span>
+                <h3>Strawberry Dream</h3>
+                <p>Soft vanilla sponge with strawberry cream.</p>
+
+                <div class="product-bottom">
+                    <strong>₹750</strong>
+                    <button onclick="orderProduct('Strawberry Dream - ₹750')">
+                        Order ↗
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRODUCT 3 -->
+        <div class="product-card">
+            <div class="product-image menu-cake-3">
+                <span class="product-tag">FRENCH CLASSIC</span>
+            </div>
+
+            <div class="product-info">
+                <span>03 / FRENCH PASTRY</span>
+                <h3>Butter Croissant</h3>
+                <p>Golden, flaky and freshly baked.</p>
+
+                <div class="product-bottom">
+                    <strong>₹120</strong>
+                    <button onclick="orderProduct('Butter Croissant - ₹120')">
+                        Order ↗
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRODUCT 4 -->
+        <div class="product-card">
+            <div class="product-image menu-cake-4">
+                <span class="product-tag">CUSTOMER FAVOURITE</span>
+            </div>
+
+            <div class="product-info">
+                <span>04 / BAKERY SPECIAL</span>
+                <h3>Choco Chip Cookies</h3>
+                <p>Buttery cookies loaded with chocolate chips.</p>
+
+                <div class="product-bottom">
+                    <strong>₹180</strong>
+                    <button onclick="orderProduct('Choco Chip Cookies - ₹180')">
+                        Order ↗
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+       <!-- PREMIUM CAKE SHOWCASE -->
+
+<section class="cake-showcase">
+
+    <div class="showcase-heading">
+        <p class="eyebrow">THE ART OF BAKING</p>
+        <h2>More than a cake.<br>
+            <span>A work of sweetness.</span>
+        </h2>
+    </div>
+
+    <div class="showcase-content">
+
+        <div class="showcase-details">
+            <span>01 — SIGNATURE CREATION</span>
+
+            <h3>Strawberry<br>Velvet Dream</h3>
+
+            <p>
+                Soft vanilla sponge, silky cream and
+                freshly picked strawberries come together
+                in our signature celebration cake.
+            </p>
+
+            <a href="#contact" class="primary-btn">
+                Order This Cake ↗
+            </a>
+        </div>
+
+        <div class="showcase-cake">
+            <div class="cake-glow"></div>
+
+            <img
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1000"
+                alt="Strawberry signature celebration cake"
+            >
+
+            <div class="cake-circle-text">HANDCRAFTED WITH LOVE</div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PREMIUM BAKERY GALLERY -->
+
+<section class="bakery-gallery" id="gallery">
+
+    <div class="gallery-heading">
+        <p class="eyebrow">A FEAST FOR THE EYES</p>
+        <h2>Made to Look<br><span>As Good As It Tastes.</span></h2>
+        <p>Little moments, freshly baked memories.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item gallery-large">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=900" alt="Chocolate celebration cake">
+            <div class="gallery-overlay">
+                <span>01 / SIGNATURE CAKES</span>
+                <h3>Sweet Celebrations</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=700" alt="Fresh croissants">
+            <div class="gallery-overlay">
+                <span>02 / FRESHLY BAKED</span>
+                <h3>Morning Delights</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=700" alt="Delicious cupcakes">
+            <div class="gallery-overlay">
+                <span>03 / LITTLE TREATS</span>
+                <h3>Sweet Indulgence</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=700" alt="Artisan bakery bread">
+            <div class="gallery-overlay">
+                <span>04 / ARTISAN BAKING</span>
+                <h3>Fresh From Oven</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?w=700" alt="Beautiful bakery dessert">
+            <div class="gallery-overlay">
+                <span>05 / DESSERT COLLECTION</span>
+                <h3>Pure Happiness</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CUSTOM CAKE BUILDER -->
+
+<section class="custom-order" id="custom-order">
+
+    <div class="builder-heading">
+        <p class="eyebrow">YOUR CAKE, YOUR WAY</p>
+        <h2>Create Your<br><span>Sweet Masterpiece.</span></h2>
+        <p>Every celebration deserves a cake as special as you.</p>
+    </div>
+
+    <div class="cake-builder">
+
+        <div class="builder-image">
+            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=900"
+                 alt="Custom celebration cake">
+        </div>
+
+        <div class="builder-form">
+
+            <h3>Design Your Cake</h3>
+
+            <label>Occasion</label>
+            <select id="cakeType">
+                <option>Birthday</option>
+                <option>Wedding</option>
+                <option>Anniversary</option>
+                <option>Other Celebration</option>
+            </select>
+
+            <label>Flavour</label>
+            <select id="cakeFlavour">
+                <option>Chocolate</option>
+                <option>Vanilla</option>
+                <option>Strawberry</option>
+                <option>Butterscotch</option>
+                <option>Red Velvet</option>
+            </select>
+
+            <label>Cake Size</label>
+            <select id="cakeSize">
+                <option>0.5 KG</option>
+                <option>1 KG</option>
+                <option>2 KG</option>
+                <option>3 KG</option>
+            </select>
+
+            <label>Message on Cake</label>
+            <input type="text" id="cakeMessage" placeholder="Happy Birthday!">
+
+            <label>Your Name</label>
+            <input type="text" id="customerName" placeholder="Enter your name">
+
+            <button class="builder-submit" onclick="sendCustomCakeOrder()">
+                Send Enquiry on WhatsApp ↗
+            </button>
+
+        </div>
+    </div>
+</section>
+
+<!-- CUSTOMER REVIEWS -->
+
+<section class="customer-reviews" id="reviews">
+
+    <div class="reviews-heading">
+        <p class="eyebrow">KIND WORDS, SWEET MEMORIES</p>
+        <h2>Made With Love.<br><span>Loved By You.</span></h2>
+        <p>Every sweet moment means the world to us.</p>
+    </div>
+
+    <div class="reviews-grid">
+
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p>"The chocolate cake was absolutely delicious! Beautiful presentation and amazing taste."</p>
+            <div class="review-author">
+                <div class="review-avatar">A</div>
+                <div>
+                    <h4>Ananya R.</h4>
+                    <span>Birthday Cake</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p>"Fresh, soft and perfectly baked. The pastries were simply wonderful!"</p>
+            <div class="review-author">
+                <div class="review-avatar">K</div>
+                <div>
+                    <h4>Karthik S.</h4>
+                    <span>Pastry Collection</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p>"Ordered a custom cake for our anniversary. It looked beautiful and tasted even better."</p>
+            <div class="review-author">
+                <div class="review-avatar">M</div>
+                <div>
+                    <h4>Meera V.</h4>
+                    <span>Custom Cake</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+        <section class="contact" id="contact">
+            <p class="eyebrow">LET'S MAKE LIFE SWEETER</p>
+            <h2>Have something <span>sweet</span> in mind?</h2>
+            <p>Get in touch with us for orders and enquiries.</p>
+
+            <a href="https://wa.me/91XXXXXXXXXX" class="primary-btn" target="_blank">
+                Order on WhatsApp ↗
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#" class="logo">BELLA<span>CRUMB.</span></a>
+        <p>Freshly Baked. Beautifully Made.</p>
+        <span>© <span id="year"></span> BELLA CRUMB. All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- FLOATING WHATSAPP BUTTON -->
+
+<a href="https://wa.me/91XXXXXXXXXX"
+   class="floating-whatsapp"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+
+    <span>Order on WhatsApp</span>
+    <div>✆</div>
+
+</a>
+</body>
+</html>
